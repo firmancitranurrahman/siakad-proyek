@@ -16,6 +16,12 @@ class Home extends CI_Controller{
       $this->load->view('template/footer');
       $this->load->view('admin/nilai');
     }
+    public function tambahnilai(){
+      $data['judul']='Tambah Nilai Siswa';
+      $this->load->view('template/header',$data);
+      $this->load->view('template/sidebar'); 
+      $this->load->view('admin/tambahnilai');
+      }
     public function pengumuman(){
       $data['judul']='Buat Pengumuman';
       $this->load->view('template/header',$data);
@@ -29,14 +35,12 @@ class Home extends CI_Controller{
       $this->load->view('template/sidebar'); 
       $this->load->view('admin/aturspp');
     }
-    public function tambahnilai(){
-    $data['judul']='Tambah Nilai Siswa';
-    $this->load->view('template/header',$data);
-    $this->load->view('template/sidebar'); 
-    $this->load->view('admin/tambahnilai');
-    }
 
     public function tambahsiswa(){
-      
+      $data['judul']='Halaman Tambah Siswa';
+
+      $this->load->view('template/header',$data);
+      $this->load->view('template/sidebar'); 
+      $this->load->view('admin/tambahsiswa');
     }
 }
