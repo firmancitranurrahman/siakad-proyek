@@ -27,7 +27,9 @@
 		<td>:</td>
 	</tr>
     <h3>Tagihan SPP Siswa</h3>
-<table border="1">
+
+<table class="table table-bordered">
+    <thead>
 	<tr>
 		<th>No</th>
 		<th>Bulan</th>
@@ -37,7 +39,8 @@
 		<th>Jumlah</th>
 		<th>Keterangan</th>
 		<th>Bayar</th>
-	</tr>
+	</thead>
+    </tr>
 </table>
 <p>Pembayaran SPP dilakukan dengan cara mencari tagihan siswa dengan NIS melalui form di atas, kemudian proses pembayaran</p>
 

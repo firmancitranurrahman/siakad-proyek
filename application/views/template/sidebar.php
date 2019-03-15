@@ -16,7 +16,7 @@
           <ul class="menu-content">
             <li><a href="<?= base_url();?>home/index"><i class="fa fa-home"></i> Home</a></li>
             <li><a href="<?= base_url();?>home/tambahsiswa"><i class="fa fa-graduation-cap"></i> Tambah Siswa</a></li>
-            <li><a href="#"><i class="fa fa-user"></i> Tambah Guru</a></li>
+            <li><a href="<?= base_url();?>home/tambahguru"><i class="fa fa-user"></i> Tambah Guru</a></li>
             <li><a href="<?= base_url();?>home/nilai"><i class="fa fa-bookmark-o"></i> Nilai Siswa</a></li>
             <li><a href="<?= base_url();?>home/pengumuman"><i class="fa fa-bell"></i> Pengumuman</a></li>
             <li><a href="<?= base_url();?>home/aturspp"><i class="fa fa-money"></i> Atur Status Pembayaran Spp</a></li>
