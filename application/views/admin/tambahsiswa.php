@@ -3,8 +3,8 @@
 <h1> Tambah Siswa</h1> 
 <form>
 <div class="form-group">
-			<label for="nama">NIS :</label>
-			<input type="text" class="form-control" id="nama">
+			<label for="nis">NIS :</label>
+			<input type="text" class="form-control" id="nis">
 		</div>
 		<div class="form-group">
 			<label for="nama">Nama :</label>

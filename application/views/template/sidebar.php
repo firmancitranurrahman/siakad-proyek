@@ -8,7 +8,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="<?= base_url();?>home/index">SMA 4 MACIPO</a>
+          <a class="navbar-brand" href="<?= base_url();?>home/index">SMA 4 MACIPO</a>      
       </div>
         </nav>  
       <aside class="sidebar">
