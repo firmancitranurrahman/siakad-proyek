@@ -1,6 +1,6 @@
 <div class="container">
 <section class="content">
-<h1> Tambah Siswa</h1> 
+<h1> Tambah Guru</h1> 
 <form>
 <div class="form-group">
 			<label for="nip">NIP :</label>

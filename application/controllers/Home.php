@@ -9,19 +9,18 @@ class Home extends CI_Controller{
       $this->load->view('admin/home');
       $this->load->view('template/footer'); 
     }
-    public function nilai(){
-      $data['judul']='Nilai Siswa';
-      $this->load->view('template/header',$data);
-      $this->load->view('template/sidebar'); 
-      $this->load->view('template/footer');
-      $this->load->view('admin/nilai');
-    }
-    public function tambahnilai(){
+    public function nilaiipa(){
       $data['judul']='Tambah Nilai Siswa';
       $this->load->view('template/header',$data);
       $this->load->view('template/sidebar'); 
-      $this->load->view('admin/tambahnilai');
+      $this->load->view('admin/nilaiipa');
       }
+      public function nilaiips(){
+        $data['judul']='Tambah Nilai Siswa';
+        $this->load->view('template/header',$data);
+        $this->load->view('template/sidebar'); 
+        $this->load->view('admin/nilaiips');
+        }
     public function pengumuman(){
       $data['judul']='Buat Pengumuman';
       $this->load->view('template/header',$data);
